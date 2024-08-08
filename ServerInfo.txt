@@ -1,0 +1,12 @@
+log file /var/log/xray/
+
+vmess tls = vmess_tls.log
+vmess ntls = vmess_ntls.log
+vmess error = vmess_error.log
+vless tls = vless_tls.log
+vless ntls = vless_ntls.log
+vless error = vless_error.log
+trojanws = trojanws.log
+all trojan error = trojan_error.log
+xtls = xtls.log
+xtls error = xtls_error.log
