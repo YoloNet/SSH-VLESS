@@ -34,7 +34,7 @@ src="https://img.shields.io/badge/Service-Xray-success.svg">  <img src= "https:/
 ## INSTALLATION LINK IF ASKED
 
   ```html
-  raw.githubusercontent.com/YoloNet/vless-ws-only/main/
+  raw.githubusercontent.com/YoloNet/SSH-VLESS/main/
 
   ```
  
@@ -44,12 +44,13 @@ src="https://img.shields.io/badge/Service-Xray-success.svg">  <img src= "https:/
 **PORT INFO :**
 ```
 PORT 443 :
-
+- SSH WS TLS
 - VMESS TLS
 - VLESS TLS
 - VLESS TCP XTLS VISION ( use http injector,some client still dont support vision)
 
 PORT 80 :
+- SSH WS HTTP
 - VMESS NON TLS
 - VLESS NON TLS
 ```
