@@ -28,7 +28,7 @@ src="https://img.shields.io/badge/Service-Xray-success.svg">  <img src= "https:/
 ## INSTALLATION SCRIPT // USE ONLY DEBIAN 10 FOR STABILITY
 
   ```html
-  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/YoloNet/vless-ws-only/main/setup-lite.sh && chmod +x setup-lite.sh && sed -i -e 's/\r$//' setup-lite.sh && screen -S setup-lite ./setup-lite.sh
+  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/YoloNet/SSH-VLESS/main/setup-lite.sh && chmod +x setup-lite.sh && sed -i -e 's/\r$//' setup-lite.sh && screen -S setup-lite ./setup-lite.sh
 
   ```
 ## INSTALLATION LINK IF ASKED
