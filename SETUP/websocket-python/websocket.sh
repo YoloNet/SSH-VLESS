@@ -6,10 +6,6 @@ echo Sila Tunggu Sebentar...
 sleep 0.5
 cd
 
-# // GIT USER
-
-namafolder="websocket-python"
-
 # // SYSTEM WEBSOCKET HTTPS 443
 cat <<EOF> /etc/systemd/system/ws-https.service
 [Unit]
